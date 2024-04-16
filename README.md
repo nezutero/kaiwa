@@ -4,11 +4,20 @@
 
 ## Installation
 
-- **Clone the repo**
-
 ```sh
 git clone https://github.com/plastiey/kaiwa.git
 cd kaiwa
+```
+
+```sh
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+```sh
+python manage.py migrate
+python manage.py runserver
 ```
 
 ## Contributing
